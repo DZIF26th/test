@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>活動 | 大直高中資訊社26屆</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/header-footer.css">
+    <link rel="stylesheet" href="../css/else.css">
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="icon" href="../images/dzifico.ico" type="image/x-icon">
+
+</head>
+<body onload="closeNav()">
+    <header>
+        <div id="sidebar" class="sidebar-menu" role="navigation" aria-label="側邊選單">
+            <div class="close-btn-container">
+                <a href="javascript:void(0)" class="close-btn" onclick="closeNav()" aria-label="關閉選單">&times;</a>
+            </div>
+            <div class="menu-items">
+                <a href="../index.html" onclick="closeNav()" aria-label="首頁"><i class="fas fa-home"></i> 首頁</a>
+                <a href="./courses.html" onclick="closeNav()" aria-label="社課"><i class="fas fa-chalkboard-teacher"></i> 社課</a>
+                <a href="./members.html" onclick="closeNav()" aria-label="成員"><i class="fas fa-users"></i> 成員</a>
+                <a href="./events.html" onclick="closeNav()" aria-label="活動"><i class="fas fa-calendar-alt"></i> 活動</a>
+                <a href="./others.html" onclick="closeNav()" aria-label="其它"><i class="fas fa-ellipsis-h"></i> 其它</a>
+            </div>
+        </div>
+        <div class="hamburger" onclick="openNav()" aria-label="開啟選單">
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+        </div>
+    </header>
+
+    <div class="sticky-nav">
+        <nav>
+            <h2><a href="../index.html">DZIF26</a></h2>
+            <a href="../index.html" id="ele">首頁</a>
+            <a href="./courses.html" id="ele">社課</a>
+            <a href="./members.html" id="ele">成員</a>
+            <a href="./events.html" id="ele">活動</a>
+            <a href="./others.html" id="ele">其它</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="event-container">
+
+            <div class="event-block">
+                <div class="event-text">
+                    <h2>社團博覽會</h2>
+                    <hr class="title-underline">
+                    <p>
+                        參加這次的社團博覽會，我們資訊社準備了不少有趣的內容來吸引同學們的目光。我們特別設計並展示了自製的小遊戲，讓來參觀的同學能夠親自體驗，
+                        現場氣氛相當熱烈。看到大家玩得開心，甚至排隊等著挑戰遊戲，讓我感到非常有成就感。我們也安排了成員在一旁解說遊戲的設計原理和操作方式，讓大家對資訊科技有更多了解，不只是單純玩遊戲而已。
+                        <br><br>
+                        此外，我們還展示了社團最近嘗試的新技術——NFC卡片。每張卡片都有特別的功能，能夠與我們的設備互動，引起了很多人的好奇與討論。透過這次博覽會，不但讓更多人認識了資訊社，也讓我體會到團隊合作與事前準備的重要。
+                        希望藉由這樣的活動，能吸引更多對資訊科技有興趣的新成員加入我們的行列，一起創造更多有趣的作品！
+                    </p>
+                </div>
+                <div class="event-image">
+                    <img src="../images/pc_3-1.jpg" alt="社博圖片" class="lightbox-trigger">
+                </div>
+            </div>
+
+
+            <div class="event-block">
+                <div class="event-text">
+                    <h2>校慶園遊會</h2>
+                    <hr class="title-underline">
+                    <p>「校慶園遊會」是個每年都有的大活動，特別的是每兩年就會有一次以社團為單位擺攤。而我們這屆很幸運的遇到了這個活動。
+                       剛開始我們有想過要擺最常見而普通的丟球遊戲攤位，但後來我們想了想，這樣的攤位太無趣了，於是我們決定要做出獨一無二的攤位。
+                       經過多次的討論及調整，我們還是決定要打造一個遊戲攤位，但是是個數位化的遊戲攤位。
+                       這次我們準備了3款遊戲，其中有2款遊戲是我們自己製作的，另一款遊戲是用VR玩遊戲，主打一個便宜的價格讓大家都能體驗到VR遊戲的樂趣。
+                       我們也準備了豐厚的獎品，讓破關者可以領取小禮物，禮物包括零食點心、按鍵吊飾、NFC卡片...等。
+                        <br><br>
+                        這次的活動雖然沒有很成功，因為我們攤位的位置比較偏僻，導致來我們攤位的人不多，但是在學長姐們的幫助下，我們還是賺了不少社費。
+                        最終我們也成為校慶園遊會的績優攤位!                     
+                        <br><br>宣傳網頁: <span><a href="https://dzif26th.github.io/club-inform/" target="_blank">點我</a></span>
+                    </p>
+                        
+                        
+                </div>
+                <div class="event-image">
+                    <img src="../images/pc_2-1.jpg" alt="園遊會圖片" class="lightbox-trigger">
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+    <!-- Lightbox -->
+    <div class="lightbox" id="imageLightbox">
+        <span class="close-lightbox">&times;</span>
+        <div class="lightbox-content">
+            <img src="" alt="Lightbox Image" id="lightboxImage">
+            <div class="lightbox-nav">
+                <button class="prev-btn" aria-label="上一張">&lt;</button>
+                <button class="next-btn" aria-label="下一張">&gt;</button>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <h3>聯絡我們 Contact us</h3>
+        <div>
+            <a href="dzif26th@gmail.com" target="_blank">
+                <i class="fas fa-envelope"></i>
+            </a>
+            
+            <a href="https://discord.gg/D5d5X9g6NP" target="_blank">
+                <i class="fab fa-discord"></i>
+            </a>
+  
+        </div>
+        <p>&copy; 2025 DZIF 26th |</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/events.js"></script>
+</body>
+</html>

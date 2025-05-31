@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>社課 | 大直高中資訊社26屆</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/else.css">
+    <link rel="stylesheet" href="../css/header-footer.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="icon" href="../images/dzifico.ico" type="image/x-icon">
+</head>
+<body onload="closeNav()">
+    <header>
+        <div id="sidebar" class="sidebar-menu" role="navigation" aria-label="側邊選單">
+            <div class="close-btn-container">
+                <a href="javascript:void(0)" class="close-btn" onclick="closeNav()" aria-label="關閉選單">&times;</a>
+            </div>
+            <div class="menu-items">
+                <a href="../index.html" onclick="closeNav()" aria-label="首頁"><i class="fas fa-home"></i> 首頁</a>
+                <a href="./courses.html" onclick="closeNav()" aria-label="社課"><i class="fas fa-chalkboard-teacher"></i> 社課</a>
+                <a href="./members.html" onclick="closeNav()" aria-label="成員"><i class="fas fa-users"></i> 成員</a>
+                <a href="./events.html" onclick="closeNav()" aria-label="活動"><i class="fas fa-calendar-alt"></i> 活動</a>
+                <a href="./others.html" onclick="closeNav()" aria-label="其它"><i class="fas fa-ellipsis-h"></i> 其它</a>
+            </div>
+        </div>
+        <div class="hamburger" onclick="openNav()" aria-label="開啟選單">
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+            <div class="hamburger-line"></div>
+        </div>
+    </header>
+
+    <div class="sticky-nav">
+        <nav>
+            <h2><a href="../index.html">DZIF26</a></h2>
+            <a href="../index.html" id="ele">首頁</a>
+            <a href="./courses.html" id="ele">社課</a>
+            <a href="./members.html" id="ele">成員</a>
+            <a href="./events.html" id="ele">活動</a>
+            <a href="./others.html" id="ele">其它</a>
+        </nav>
+    </div>
+    <div class="semester-container">
+        <h1 class="schedule-title scroll-animation">課程規劃</h1>
+        <hr class="title-underline scroll-animation delay-1">
+        <div class="semester-box scroll-animation delay-2">
+            <h2 class="semester-title">上學期</h2>
+            <div class="table-wrapper">
+                <table class="styled-table semester-table">
+                    <tr>
+                        <td>8/30</td>
+                        <td>破冰/你畫我猜</td>
+                    </tr>
+                    <tr>
+                        <td>9/6</td>
+                        <td>選擇本學期課程</td>
+                    </tr>
+                    <tr>
+                        <td>9/13</td>
+                        <td>介紹HTML</td>
+                    </tr>
+                    <tr>
+                        <td>9/20</td>
+                        <td>HTML-圖片</td>
+                    </tr>
+                    <tr>
+                        <td>9/27</td>
+                        <td>HTML-表單</td>
+                    </tr>
+                    <tr>
+                        <td>10/4</td>
+                        <td>HTML-容器</td>
+                    </tr>
+                    <tr>
+                        <td>10/11</td>
+                        <td>段考前自習</td>
+                    </tr>
+                    <tr>
+                        <td>10/18</td>
+                        <td>複習HTML</td>
+                    </tr>
+                    <tr>
+                        <td>10/25</td>
+                        <td>介紹CSS</td>
+                    </tr>
+                    <tr>
+                        <td>11/1</td>
+                        <td>校慶園遊會攤位討論</td>
+                    </tr>
+                    <tr>
+                        <td>11/8</td>
+                        <td>校慶園遊會攤位準備</td>
+                    </tr>
+                    <tr>
+                        <td>11/15</td>
+                        <td>介紹NFC + NFC卡片使用教學</td>
+                    </tr>
+                    <tr>
+                        <td>11/22</td>
+                        <td>github page教學</td>
+                    </tr>
+                    <tr>
+                        <td>11/29</td>
+                        <td>段考前自習</td>
+                    </tr>
+                    <tr>
+                        <td>12/6</td>
+                        <td>C++上機考複習-1</td>
+                    </tr>
+                    <tr>
+                        <td>12/13</td>
+                        <td>C++上機考複習-2</td>
+                    </tr>
+                    <tr>
+                        <td>12/27</td>
+                        <td>C++上機考複習-3</td>
+                    </tr>
+                    <tr>
+                        <td>1/3</td>
+                        <td>C++上機考複習-4</td>
+                    </tr>
+                    <tr>
+                        <td>1/10</td>
+                        <td>段考前自習</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    
+        <div class="semester-box scroll-animation delay-3">
+            <h2 class="semester-title">下學期</h2>
+            <div class="table-wrapper">
+                <table class="styled-table semester-table">
+                    <tr>
+                        <td>2/14</td>
+                        <td>說明本學期課程</td>
+                    </tr>
+                    <tr>
+                        <td>2/21</td>
+                        <td>discord bot介紹 + 實作</td>
+                    </tr>
+                    <tr>
+                        <td>2/28</td>
+                        <td>二二八連假停課</td>
+                    </tr>
+                    <tr>
+                        <td>3/7</td>
+                        <td>discord bot 實作</td>
+                    </tr>
+                    <tr>
+                        <td>3/14</td>
+                        <td>visual basic</td>
+                    </tr>
+                    <tr>
+                        <td>3/21</td>
+                        <td>visual basic</td>
+                    </tr>
+                    <tr>
+                        <td>3/28</td>
+                        <td>visual basic</td>
+                    </tr>
+                    <tr>
+                        <td>4/4</td>
+                        <td>清明連假停課</td>
+                    </tr>
+                    <tr>
+                        <td>4/11</td>
+                        <td>visual basic</td>
+                    </tr>
+                    <tr>
+                        <td>4/18</td>
+                        <td>visual basic</td>
+                    </tr>
+                    <tr>
+                        <td>4/25</td>
+                        <td>KO拉卡決賽停課</td>
+                    </tr>
+                    <tr>
+                        <td>5/2</td>
+                        <td>段考前自習</td>
+                    </tr>
+                    <tr>
+                        <td>5/9</td>
+                        <td>段考停課</td>
+                    </tr>
+                    <tr>
+                        <td>5/16</td>
+                        <td>會考準備停課</td>
+                    </tr>
+                    <tr>
+                        <td>5/23</td>
+                        <td>visual basic</td>
+                    </tr>
+                    <tr>
+                        <td>5/30</td>
+                        <td>端午連假停課</td>
+                    </tr>
+                    <tr>
+                        <td>6/6</td>
+                        <td>visual basic</td>
+                    </tr>
+                    <tr>
+                        <td>6/13</td>
+                        <td>visual basic</td>
+                    </tr>
+                    <tr>
+                        <td>6/20</td>
+                        <td>段考前自習</td>
+                    </tr>
+                    <tr>
+                        <td>6/27</td>
+                        <td>段考停課</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+            
+        <h1 class="schedule-title scroll-animation">課程主題</h1>
+        <hr class="title-underline scroll-animation delay-1">
+        <div class="grid-container">
+            <div class="grid-item scroll-animation delay-1" data-title="網頁設計" data-description="
+            &emsp;&emsp;在建立網站的過程中，HTML（超文件標記語言）與 CSS（階層式樣式表）扮演著基礎而關鍵的角色。有趣的是，HTML 與 CSS 並不屬於傳統意義上的程式語言，因為它們不具備邏輯運算或流程控制的能力。
+            HTML 主要用來定義網頁的結構與內容，例如標題、段落、圖像與連結的位置與層級。而 CSS 則負責網頁的外觀設計，包括顏色、字體、排版與動畫效果等視覺呈現。
+            <br><br>&emsp;&emsp;課程中我們使用第24屆學長姐製作的簡報，絕對不是因為我們懶得做簡報，而是因為這份簡報真的做得太好了！它不僅內容完整，還有很多實用的範例，讓我們在教學的過程中能讓大家更快上手。當然，我們也會在課堂間保留自由時間進行實作練習，如果有問題也可以直接提出來一起討論，讓大家能夠親自體驗 HTML 和 CSS 的魅力。
+            <br><br><br>課程講義：<span class='modal-link'><a href='https://hackmd.io/@dzif24x25/book' target='_blank'>點我</a></span>
+            " data-image="../images/html_cat.jpg">
+                <img src="../images/html,css.png" alt="html/css ico">
+                <div class="grid-item-content">
+                    <h3 class="grid-item-title">網頁設計</h3>
+                    <p class="grid-item-text">學習HTML和CSS的基礎語法，設計自己的網頁。</p>
+                </div>
+            </div>
+            <div class="grid-item scroll-animation delay-2" data-title="GitHub Pages" data-description="
+                &emsp;&emsp;GitHub Pages 就像是一台免費的網站販賣機，只要把你的 HTML、CSS、JavaScript 丟進 GitHub 的儲存庫，它就會自動幫你變出一個可以公開瀏覽的網站，完全不用自己架伺服器，超省事！不管是個人部落格、作品集，還是專案介紹頁面，都能輕鬆搞定。簡單來說，就是「寫好 → 上傳 → 網站就上線」，比泡泡麵還快，便能上架網頁！
+                <br><br>&emsp;&emsp;課程中，我們銜接了之前教過的 HTML & CSS，讓大家可以把自己寫好的網頁上傳到 GitHub，並透過 GitHub Pages 將作品發布到網路上，用網址公開展示給更多人看。這不但讓大家的作品有展示的空間，也實際體驗到網站從撰寫到上線的完整流程，提升實作經驗和成就感。
+                <br><br>&emsp;&emsp;我們從帳號申請、專案建立、上傳檔案到設定 GitHub Pages 都一步步帶大家操作，讓即使是第一次接觸 GitHub 的人也能跟上。過程中也教了大家怎麼處理常見錯誤，像是圖片沒顯示、連結錯誤等。
+
+                " data-image="../images/localhost.jpg">
+                <img src="../images/github.jpg" alt="GitHub Pages ico">
+                <div class="grid-item-content">
+                    <h3 class="grid-item-title">GitHub Pages</h3>
+                    <p class="grid-item-text">上架網頁。</p>
+                </div>
+            </div>
+            <div class="grid-item scroll-animation delay-3" data-title="NFC" 
+                data-description="
+                &emsp;&emsp;NFC（Near Field Communication，近場通訊）就是一種讓裝置可以「碰一下就連上」的無線技術，重點是距離很短，通常要靠得很近才能運作。它的應用超廣，像是手機支付（Apple Pay、Google Pay）、搭捷運刷卡、門禁感應，
+                甚至連一些藍牙耳機、喇叭配對時也會用到NFC來快速連線。簡單來說，就是讓生活更方便，只要輕輕一碰，就能完成付款、進出門禁或傳輸資料，省去繁瑣的操作流程。
+                <br><br>&emsp;&emsp;其實原本沒有規劃這堂課程，但是在社團園遊會結束後，我們的其中一個獎品NFC卡片還剩下一些，所以後來就一人一張分掉了，也藉此機會教大家如何使用這張神奇的卡片。
+                                    而我們不但在資訊課時介紹了它，還直接實作教學如何使用 NFC 卡片，讓大家做出屬於自己，獨一無二的名片，甚至其他更特別的功能!
+                <br><br><br>課程講義：<span class='modal-link'><a href='https://dzif26-nfc.my.canva.site/' target='_blank'>點我</a></span>
+                "data-image="../images/nfc2.png">
+                <img src="../images/NFC.png" alt="nfc ico">
+                <div class="grid-item-content">
+                    <h3 class="grid-item-title">NFC</h3>
+                    <p class="grid-item-text">認識NFC。</p>
+                </div>
+            </div>
+            <div class="grid-item scroll-animation delay-1" data-title="C++ 程式設計" data-description="
+                &emsp;&emsp;C++ 是一種功能強大又靈活的程式語言，常被應用在遊戲開發、系統軟體等領域。它結合面向對象的設計理念和對底層資源的存取能力，讓開發者可以細緻地控制記憶體與效能，適合需要高效率和穩定性的專案。 除了實務應用，
+                C++ 在學術界也很常見，許多學校會用它來教學，甚至作為上機考試或程式競賽的指定語言。因為語法嚴謹、結構清楚，對培養程式邏輯和底層觀念很有幫助。
+                <br><br>&emsp;&emsp;高一上的我們深受莉莉的資訊課荼毒，尤其是期末的 C++ 上機考，要在短時間內寫出 5 題程式，如果沒有認真準備又沒有程式基礎絕對會不及格，所以我們決定幫高一複習上課內容，期望他們可以考出好成績。課中我們除了講解題目讓學弟跟著做，
+                還會保留自由時間讓大家練習寫，如果自己先想過一遍，才會知道自己會不會解，或發現問題所在以提升學習成果。等大家都有試著寫過後，再開始講解，先分析題目敘述，說明考點，再開始講程式碼寫法，並說明每行程式碼意義，讓大家能深入理解每道題重點。
+                <br><br>課程講義：<span class='modal-link'><a href='https://hackmd.io/@dzif26/cpp-review' target='_blank'>點我</a></span>
+            " data-image="../images/no_score.jpg">
+                <img src="../images/C++.jpg" alt="C++ ico">
+                <div class="grid-item-content">
+                    <h3 class="grid-item-title">C++</h3>
+                    <p class="grid-item-text">學習 C++ 的基礎語法，迎戰上機考。</p>
+                </div>
+            </div>
+            <div class="grid-item scroll-animation delay-2" data-title="discord bot" data-description="
+            &emsp;&emsp;Discord Bot 是一種可以自動執行各種任務的機器人帳號，它會加入你的 discord 群組，根據你設定的指令或條件做出回應。你可以透過程式語言（像是 python）寫出自己的 bot，讓它幫你回訊息、管理成員、播音樂、查資料等等。
+            <br><br>&emsp;&emsp;課程中我們使用python來寫 Discord Bot，並製作出一個擁有基礎功能的機器人。透過簡單的介紹，可以激發某些人對這方面的興趣，讓對這方面有興趣的人可以繼續深入學習，未來如果有興趣，
+            還可以進一步學習如何讓 Bot 存取資料庫、接入 API、做出音樂播放、遊戲互動、甚至整合 AI 聊天功能等，應用可說是非常廣泛。
+            <br><br><br>課程講義：<span class='modal-link'><a href='https://hackmd.io/@dzif26/discord-bot' target='_blank'>點我</a></span>
+            " data-image="../images/dcbot2.jpg">
+                <img src="../images/discord.png" alt="discord bot ico">
+                <div class="grid-item-content">
+                    <h3 class="grid-item-title">Discord Bot</h3>
+                    <p class="grid-item-text">建立屬於自己的不和諧機器人。</p>
+                </div>
+            </div>
+            <div class="grid-item scroll-animation delay-3" data-title="visual basic" data-description="學習VB的基礎語法，並完成簡單的專案。" data-image="../images/python.png">
+                <img src="../images/VB.jpg" alt="vb ico">
+                <div class="grid-item-content">
+                    <h3 class="grid-item-title">Visual Basic</h3>
+                    <p class="grid-item-text">用Visual Basic製作應用程式。</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="modal-overlay" id="modal">
+            <span class="modal-close" id="modal-close">&times;</span>
+            <div class="modal-content">
+                <div class="modal-text">
+                    <h2 id="modal-title">課程主題</h2>
+                    <p id="modal-description">這是一個關於課程的詳細描述，內容包括課程的目標、學習內容及相關圖片。</p>
+                </div>
+                <div class="modal-image-container">
+                    <img id="modal-image" src="" alt="示例圖片">
+                    <p class="image-source">圖片來源：網路</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="class-photos-container">
+        <h1 class="schedule-title scroll-animation">上課照片</h1>
+        <hr class="title-underline scroll-animation delay-1">
+        <div class="photo-gallery" id="photoGallery">
+            <div class="photo-item scroll-animation delay-1" onclick="openLightbox(0)">
+                <img src="../images/IMG_2785.jpg" alt="上課照片1">
+                <p class="photo-caption">第一堂社課</p>
+            </div>
+            <div class="photo-item scroll-animation delay-2" onclick="openLightbox(1)">
+                <img src="../images/IMG_2860.jpg" alt="上課照片2">
+                <p class="photo-caption">上課 - 網頁</p>
+            </div>
+            <div class="photo-item scroll-animation delay-3" onclick="openLightbox(2)">
+                <img src="../images/IMG_2897.jpg" alt="上課照片3">
+                <p class="photo-caption">上課 - 網頁</p>
+            </div>
+            <!-- 隱藏的照片 -->
+            <div class="photo-item hidden-photo scroll-animation delay-1" onclick="openLightbox(3)">
+                <img src="../images/IMG_2898.jpg" alt="上課照片4">
+                <p class="photo-caption">上課 - 網頁</p>
+            </div>
+            <div class="photo-item hidden-photo scroll-animation delay-2" onclick="openLightbox(4)">
+                <img src="../images/IMG_2950.jpg" alt="上課照片5">
+                <p class="photo-caption">上課 - 網頁</p>
+            </div>
+            <div class="photo-item hidden-photo scroll-animation delay-3" onclick="openLightbox(5)">
+                <img src="../images/IMG_3004.jpg" alt="上課照片6">
+                <p class="photo-caption">上課 - 網頁</p>
+            </div>
+            <div class="photo-item hidden-photo scroll-animation delay-1" onclick="openLightbox(6)">
+                <img src="../images/IMG_3030.jpg" alt="上課照片7">
+                <p class="photo-caption">段考前自習</p>
+            </div>
+            <div class="photo-item hidden-photo scroll-animation delay-2" onclick="openLightbox(7)">
+                <img src="../images/IMG_3031.jpg" alt="上課照片8">
+                <p class="photo-caption">段考前自習</p>
+            </div>
+            <div class="photo-item hidden-photo scroll-animation delay-3" onclick="openLightbox(8)">
+                <img src="../images/IMG_3313.jpg" alt="上課照片9">
+                <p class="photo-caption">上機考複習</p>
+            </div>
+            <div class="photo-item hidden-photo scroll-animation delay-1" onclick="openLightbox(9)">
+                <img src="../images/IMG_3629.jpg" alt="上課照片10">
+                <p class="photo-caption">上機考複習</p>
+            </div>
+        </div>
+        <button class="view-more-btn scroll-animation delay-4" id="viewMoreBtn" onclick="toggleMorePhotos()">查看更多</button>
+    </div>
+
+    <!-- 照片燈箱 -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="放大照片">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+            <a class="lightbox-prev" onclick="changeImage(-1)">&#10094;</a>
+            <a class="lightbox-next" onclick="changeImage(1)">&#10095;</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h3>聯絡我們 Contact us</h3>
+        <div>
+            <a href="mailto:dzif26th@gmail.com" target="_blank">
+                <i class="fas fa-envelope"></i>
+            </a>
+            
+            <a href="https://discord.gg/D5d5X9g6NP" target="_blank">
+                <i class="fab fa-discord"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 DZIF26th | </p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/courses.js"></script>
+</body>
+</html>

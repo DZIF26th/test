@@ -1,0 +1,37 @@
+header {
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    text-align: center;
+    padding: 0rem;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.footer {
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 -10px 20px rgba(0,0,0,0.1);
+}
+
+.footer i {
+    color: white;
+    font-size: 2rem;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.footer i:hover {
+    transform: scale(1.2) rotate(360deg);
+}
+
+header, footer {
+    position: relative;
+    height: auto;
+}
